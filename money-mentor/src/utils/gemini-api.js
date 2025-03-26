@@ -1,7 +1,10 @@
 import { GoogleGenerativeAI } from "@google/generative-ai"
+require('dotenv').config();
+
+const apiKey = process.env.API_KEY;
 
 // Initialize the Google Generative AI with the API key from config
-const genAI = new GoogleGenerativeAI("AIzaSyBYM4nFvvhZSvyuqxSHM3yEeDfYp-2HuXQ")
+const genAI = new GoogleGenerativeAI(apiKey)
 
 // Generation config
 const generationConfig = {
