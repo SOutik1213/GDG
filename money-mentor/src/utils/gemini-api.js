@@ -1,5 +1,4 @@
 import { GoogleGenerativeAI } from "@google/generative-ai"
-import { GOOGLE_AI_API_KEY, GOOGLE_AI_MODEL, SYSTEM_INSTRUCTION } from "../config/api-keys"
 
 // Initialize the Google Generative AI with the API key from config
 const genAI = new GoogleGenerativeAI("AIzaSyBYM4nFvvhZSvyuqxSHM3yEeDfYp-2HuXQ")
